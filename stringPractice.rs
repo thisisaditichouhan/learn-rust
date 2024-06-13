@@ -1,6 +1,16 @@
 use std::io;
 fn main(){
   println!("Hello Coders!");
+
+    let mut s1 = String::from("Hi");
+    let mut s2 = String::from("Coders!");
+    let s3 = format!("{} {}",s1,s2);
+    //String
+    //Owned, growable, and mutable UTF-8 encoded string.
+    //Heap-allocated, meaning it can dynamically grow in size as needed.
+    //Best used when you need ownership of the string and may need to modify it.
+    println!("This is the first string concatenation using `String`: {}",s3);
+  
   loop{
     println!("Do you want to talk to me? (Yes/No)");
 
