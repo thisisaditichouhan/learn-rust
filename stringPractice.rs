@@ -9,7 +9,7 @@ fn main(){
     let valueA = String::from("abc");
     let valueB = String::from("123");
 
-    println!("a is {} and b is {}",valueA,ValueB);
+    println!("a is {} and b is {}",valueA,valueB);
     
     //String
     //Owned, growable, and mutable UTF-8 encoded string.
