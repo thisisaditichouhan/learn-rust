@@ -5,6 +5,12 @@ fn main(){
     let mut s1 = String::from("Hi");
     let mut s2 = String::from("Coders!");
     let s3 = format!("{} {}",s1,s2);
+
+    let valueA = String::from("abc");
+    let valueB = String::from("123");
+
+    println!("a is {} and b is {}",valueA,ValueB);
+    
     //String
     //Owned, growable, and mutable UTF-8 encoded string.
     //Heap-allocated, meaning it can dynamically grow in size as needed.
